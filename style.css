@@ -1,0 +1,88 @@
+body {
+    margin: auto 0;
+}
+
+
+/* Nav */
+
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        font-size: 0.5rem;
+        padding:0;
+    }
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0;
+    background-color: green;
+    height: 10vh;
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+.nav-bar > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Cover */
+.cover {
+    display: flex;
+    background-color: darkgrey;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover > img {
+    border-radius: 60%;
+}
+
+/* About me */
+.about {
+    display: flex;
+    background-color: lightgrey;
+    height: 60vh;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+/* Footer */
+footer > ul {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 7vh;
+}
+
+
+
+
+
+
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+
+
+
